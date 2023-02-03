@@ -1,0 +1,59 @@
+.App {
+  text-align: center;
+}
+.navbar{
+  display: flex;
+  flex-direction: row;
+  background-color: brown;
+  height: 70px;
+  width: 800px;
+  text-align: center;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: 32%;
+}
+.navbar__details{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.input__area{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+.input{
+  width: 500px;
+  margin-right: 15px;
+}
+.word__play{
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
+  width: 300px;
+  margin-left: 250px;
+}
+.word{
+  display: flex;
+  flex-direction: column;
+}
+.container{
+  width: 800px;
+  background-color: aqua;
+  margin-left: 32%;
+}
+.word__meaning{
+  text-align: left;
+}
+.word__meaning__title{
+  margin-left: 20px;
+}
+.word__meaning__mean{
+  margin-left: 20px;
+}
